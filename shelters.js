@@ -9,7 +9,7 @@ function searchHomelessShelters(latitude, longitude) {
       .then(response => response.json())
       .then(data => {
     var sheltersArray = []
-    for(var i=0; i<5; i++){
+    for(var i=0; i<data.results.length; i++){
     const shelterName = data.results[i].name;
     const shelterVicinity = data.results[i].vicinity;
     const shelterLat = data.results[i].geometry.location.lat;
