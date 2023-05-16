@@ -26,11 +26,6 @@ section {
   align-items: flex-start;
 }
 
-section p {
-  text-align: center;
-  margin-bottom: 35px;
-}
-
 .locations {
   width: 60%;
 }
