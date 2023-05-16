@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homeless Shelter Finder</title>
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Homeless Shelter Finder</h1>
+  <h2>List of Shelters</h2>
+  <ul id="shelter-list">
+   
+  </ul>
+  <h2>Map</h2>
+  <div id="map"></div>
+</body>
+<script type="text/javascript">
+    var GAPI_KEY = '';
+    loadAPIKeys();
+    function loadAPIKeys() {
+        GAPI_KEY = localStorage.getItem('GAPI_KEY') || '';
+    }
+  </script>
+  <script id="GOOGLE_SCRIPTS"></script>
+  <script>
+    const googleScriptSrc = `https://maps.googleapis.com/maps/api/js?key=${GAPI_KEY}&libraries=places`
+
+    document.querySelector('#GOOGLE_SCRIPTS').src = googleScriptSrc
+  </script>
+  <script src="../shelters.js"></script>
+</html>
