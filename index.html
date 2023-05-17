@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Homeless Resource Finder</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="sidebar">
-        <div class="sidebar-toggle-container">
-          <button class="sidebar-toggle" onclick="toggleSidebar()">Toggle Sidebar</button>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Homeless</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/Logo_IMGS/Helping Homeless logo.png" alt="Logo" class="logo">
         </div>
-        <div class="sidebar-content">
-          <h2>Home</h2>
-          <!-- Add content here for what we are about and what our goal is -->
-          <h2>Resources</h2>
-          <div class="dropdown">
-            <button class="dropdown-toggle">Resources</button>
-            <div class="dropdown-menu">
-              <ul>
-                <li><a href="Main/ShelterLocations/shelters.html">Shelter Locations</a></li>
-                <li><a href="#">Food Banks</a></li>
-                <li><a href="#">Job Training Programs</a></li>
-              </ul>
-            </div>
-          </div>
-          <h2>Future Resources</h2>
-          <h2>Contact Us</h2>
-          <!-- Add content on how to contact the developers | GitHub, Email, etc -->
-        </div>
-      </div>
-      <div class="content">
-        <button class="sidebar-toggle mobile-toggle" onclick="toggleSidebar()">Toggle Sidebar</button>
         <h1>Homeless Resources for California</h1>
-        <div id="map" style="width: 100%; height: 500px;"></div>
-      </div>
+        <div class="header-image-container">
+            <img src="assets/Logo_IMGS/California State Pic.png" alt="Second Image" class="header-image" width="200">
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <nav>
+            <h2>Home</h2>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="Main/ShelterLocations/shelters.html">Homeless Shelter</a></li>
+            </ul>
+            <h2>Future Resources</h2>
+            <ul>
+                <li>Food banks</li>
+                <li>Job training programs</li>
+            </ul>
+            <h2>Contact Us</h2>
+            <ul>
+                <li>BetterHelpingHomeless@gmail.com</li>
+            </ul>
+                
+        </nav>
+        <div class="about-us">
+            <p>Fake Text: jnfuibvinivuheiunvoihv9hevoiwnevohwe9voivn
+                hw8e7hviuwnev9w8yf9wenvoiuerhg8uvoernv8uheivneriuhvieubviuhv
+                iwbiuvbqibwviubiwbviwubviuwbeviubjnfuibvinivuheiunvoihv9hevo
+                iwnevohwe9voivnhw8e7hviuwnev9w8yf9wenvoiuerhg8uvoernv8uheivn
+            </p>
+        </div>
     </div>
+
+    <!-- Your HTML content goes here -->
+
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
