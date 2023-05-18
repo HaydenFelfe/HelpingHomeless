@@ -1,102 +1,86 @@
-
-body{
-    background-color: gray;
+body {
+    background-color: beige;
+    margin: 0;
 }
 
-
-
-body   h1{
-text-align: center;
-
-/* choose color you want */
-border: 1px black solid;
-
-/* choose color you want */
-background-color: red;  
-
-}
-
-/* box between home box and reosurce box  */
-
-.bigbox{
+header {
     display: flex;
-    
-  
-    
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    border-bottom: 3px solid black;
+    padding: 10px;
 }
 
-.boxtext p{
- background-color: yellow;
- border: 1px black solid;
- margin-top: 1px;
- margin-left: 100px;
- padding: 5px 20px;
- font-size: 16px;
- font-weight: normal;
- margin-right: 20px;
- width: 500px;
-
-}
-
-/* box resouce edit */
-.boxresource{
-    background-color: aquamarine;
-    border: 1px black solid;
-    width: 190px;
-}
-
-.boxresource h2{
+h1 {
+    font-size: 50px;
+    margin: 0;
     text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 3px black solid;
 }
 
-.boxresource ul{
-    padding: 5px 20px 5px 20px;
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
- /* edit color link */
-a{
+.logo {
+    width: 150px;
+    height: auto;
+    opacity: 0.7;
+    padding-left: 100px;
+}
+
+.header-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    width: 150px;
+    height: auto;
+    opacity: 0.7;
+    padding-right: 100px;
+}
+
+nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    text-align: left;
+    padding-left: 75px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.about-us {
+    flex-wrap: wrap;
+    width: 85%;
+    font-size: 23px;
+    padding-left: 10px;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 25px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+nav a {
     text-decoration: none;
-    color :black
+    color: black;
 }
 
-a:hover{
-    color: red;
+nav a:hover {
+    color: blue;
 }
 
-a:active{
-    color:yellow
+.content-wrapper {
+    display: flex;
 }
-/* end of box resource edit */
-
-/* edit future box  */
-.boxfuture{
-    background-color: blueviolet ;
-    border: 1px black solid;
-    width: 190px;
-    margin-top: 20px;
-}
-.future{
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 3px black solid;
-}
-
-.contact{
-    padding-left: 20px;
-    
-}
-
-/* end edit future box  */
-
-.job p{
-    background-color: yellow;
-    border: 2px black solid;
-    margin: auto;
-    font-size: 16px;
-    font-weight: normal;
-    width: 800px;
-}
-
-
