@@ -1,40 +1,33 @@
-HelpingHomeless
+# Helping Homeless Project
 
-# Helping Homeless using Google API to help with showing nerby shelter, food banks, and job training 
+## A fully functional project written in html, css, and javascript showing nearby shelter location using Google API and Google Places API to help homeless people
 
-## A fully functional example project written in html, css. and javascript showing nearby shelter location using GOOGLE API to help homeless people
+This project was built in order to help people in need of finding shelter based off their current location within a 5,000 meter radius of their current location using the Google Maps API and the Google Places API. 
 
-This project is an example that was built on the idea of helpinghomeless people where ever they are located find 
-shelters near them using GOOGLE MAPS API. 
-
-*
-*
-*
-*
-*
-*
+* HTML
+* CSS
+* Javascript 
+* Google API
+* Google Places API
 
 
-## input visual of website
+## Visuals of Website
 
+
+![Alt text](assets/Logo_IMGS/Homepage%20SS.png)
 
 
 
 
-
+![Alt text](assets/Logo_IMGS/Shelters%20SS.png)
 
 
 
 
 
 
-## How to make this website work
 
-The easiest way to see how this works is to follow these simple steps.
+## Future Changes 
 
-
-
-## How to tweak this project for your own use
-
-This is a group project and will be made private once graded. After a few changes have been made with the API we will make is public again, come back to check it out and feel free to clone and rename to use for your own purpose. 
+This is a group project and will be made private once graded. After a few changes have been made with the API we will make is public again, come back to check it out and feel free to clone and rename to use for your own purpose. The intention once public again will be to add food banks and job trainings to the resources in this website. 
 
