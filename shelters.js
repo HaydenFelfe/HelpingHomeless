@@ -31,7 +31,7 @@ function searchHomelessShelters(latitude, longitude) {
             shelterItem.append(shelterListen);
             shelterListElement.appendChild(shelterItem);
           });
-  
+          shelterListElement.style.border="3px solid black";
           const mapElement = document.getElementById('map');
           const mapOptions = {
             center: { lat: latitude, lng: longitude },
@@ -51,6 +51,7 @@ function searchHomelessShelters(latitude, longitude) {
                 `<div>${shelter.shelterName}</div> <div>${shelter.shelterVicinity}</div>`
             );
             infowindow.open(map,marker);
+            
             
            
             });
