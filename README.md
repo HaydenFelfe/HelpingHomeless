@@ -2,6 +2,17 @@
 
 ## A fully functional project written in html, css, and javascript showing nearby shelter location using Google API and Google Places API to help homeless people
 
+
+
+## User Story
+
+* As a user in need of homeslessness resources 
+
+* I want to quickly access homeless shelters and support services 
+
+* So that I can find the assistance I need for a better future 
+
+
 This project was built in order to help people in need of finding shelter based off their current location within a 5,000 meter radius of their current location using the Google Maps API and the Google Places API. 
 
 * HTML
