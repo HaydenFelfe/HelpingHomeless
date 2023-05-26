@@ -1,6 +1,7 @@
 HelpingHomeless
 
 # Helping Homeless using Google API to help with showing nerby shelter, food banks, and job training 
+https://haydenfelfe.github.io/HelpingHomeless/
 
 ## A fully functional example project written in html, css. and javascript showing nearby shelter location using GOOGLE API to help homeless people
 

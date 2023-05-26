@@ -38,8 +38,23 @@ border-bottom: 3px solid black;
 .left{
   flex: 1;
 }
+.modal {
+  text-align: center;
+  background-color: beige;
+  padding-top: 10px;
   
+  
+}
+.modal-content input[type="text"] {
+  width: 300px; 
 
+}
+.modal-content button#submitAddress {
+  background-color: beige;
+}
+.modal-content input[type="text"] {
+  background-color: beige; 
+}
 .list{
 display: flex;
 flex-wrap: wrap;
@@ -61,6 +76,8 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-right: 10px;
 }
+
+
 
 @media screen and (max-width: 750px) {
 .list{
